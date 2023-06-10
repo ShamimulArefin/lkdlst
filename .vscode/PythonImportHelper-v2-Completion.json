@@ -1,0 +1,88 @@
+[
+    {
+        "label": "add",
+        "importPath": "helloarefin.operations",
+        "description": "helloarefin.operations",
+        "isExtraImport": true,
+        "detail": "helloarefin.operations",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "importPath": "helloarefin.operations",
+        "description": "helloarefin.operations",
+        "isExtraImport": true,
+        "detail": "helloarefin.operations",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "build.lib.helloarefin.operations",
+        "description": "build.lib.helloarefin.operations",
+        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b",
+        "detail": "build.lib.helloarefin.operations",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "build.lib.helloarefin.operations",
+        "description": "build.lib.helloarefin.operations",
+        "peekOfCode": "def subtract(a, b):\n    return a - b",
+        "detail": "build.lib.helloarefin.operations",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "helloarefin.operations",
+        "description": "helloarefin.operations",
+        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b",
+        "detail": "helloarefin.operations",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "helloarefin.operations",
+        "description": "helloarefin.operations",
+        "peekOfCode": "def subtract(a, b):\n    return a - b",
+        "detail": "helloarefin.operations",
+        "documentation": {}
+    },
+    {
+        "label": "test_addition",
+        "kind": 2,
+        "importPath": "tests.test_operations",
+        "description": "tests.test_operations",
+        "peekOfCode": "def test_addition():\n    assert add(2, 3) == 5\n    assert add(-1, 1) == 0\n    assert add(0, 0) == 0\ndef test_subtraction():\n    assert subtract(5, 2) == 3\n    assert subtract(1, 1) == 0\n    assert subtract(0, 0) == 0",
+        "detail": "tests.test_operations",
+        "documentation": {}
+    },
+    {
+        "label": "test_subtraction",
+        "kind": 2,
+        "importPath": "tests.test_operations",
+        "description": "tests.test_operations",
+        "peekOfCode": "def test_subtraction():\n    assert subtract(5, 2) == 3\n    assert subtract(1, 1) == 0\n    assert subtract(0, 0) == 0",
+        "detail": "tests.test_operations",
+        "documentation": {}
+    }
+]
